@@ -2,7 +2,7 @@
 
 Docker images for Jenkins slave based on Jenkins Swarm Plugin.
 
-See base image [eeacms/jenkins-slave](https://hub.docker.com/r/eeacms/jenkins-master) for a lighter image and info on how to use this image.
+See base image [eeacms/jenkins-slave](https://hub.docker.com/r/eeacms/jenkins-slave) for a lighter image and info on how to use this image.
 
 This image is generic, thus you can obviously re-use it within your non-related EEA projects.
 
@@ -32,7 +32,7 @@ This image is generic, thus you can obviously re-use it within your non-related 
 
     $ docker run eeacms/jenkins-slave-eea
 
-See base image [eeacms/jenkins-slave](https://hub.docker.com/r/eeacms/jenkins-master) for more options.
+See base image [eeacms/jenkins-slave](https://hub.docker.com/r/eeacms/jenkins-slave) for more options.
 
 ## Copyright and license
 
