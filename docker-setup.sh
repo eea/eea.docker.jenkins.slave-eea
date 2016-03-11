@@ -48,6 +48,9 @@ runDeps="
   xpdf
   zlib1g-dev
   ttf-mscorefonts-installer
+  calibre
+  xvfb
+  npm
 "
 
 echo "========================================================================="
