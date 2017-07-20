@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.4 (2017-07-20)
+
+- Upgrade to swarm-client 3.4 and openjdk-8
+  [avoinea - refs #80441]
 
 ## 2.0 (2016-03-10)
 

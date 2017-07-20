@@ -1,7 +1,3 @@
-FROM eeacms/jenkins-slave:2.0
-MAINTAINER "EEA: IDM2 A-Team" <eea-edw-a-team-alerts@googlegroups.com>
-
+FROM eeacms/jenkins-slave:3.4
 COPY docker-setup.sh /
-USER root
 RUN /docker-setup.sh
-USER jenkins
