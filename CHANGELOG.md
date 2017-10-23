@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.6 (2017-10-23)
+
+- Upgrade to swarm-client 3.6
+
 ## 3.4 (2017-07-20)
 
 - Upgrade to swarm-client 3.4 and openjdk-8
