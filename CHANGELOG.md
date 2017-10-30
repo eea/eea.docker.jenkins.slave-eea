@@ -1,5 +1,10 @@
 # Changelog
 
+
+## 3.6.1 (2017-10-30)
+
+- Removed @ from jenkins name 
+
 ## 3.6 (2017-10-23)
 
 - Upgrade to swarm-client 3.6
