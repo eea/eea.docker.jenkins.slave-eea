@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+
 runDeps="
   build-essential
   cron
@@ -14,14 +15,12 @@ runDeps="
   graphviz
   graphviz-dev
   htop
-  ImageMagick
   libaprutil1-dev
   libc6-dev
   libcurl4-openssl-dev
   libexpat1-dev
   libjpeg-dev
   libjpeg62
-  libpng12-0
   libmagickcore-6.q16-2-extra
   libmemcached-dev
   libpq-dev
@@ -50,7 +49,8 @@ runDeps="
   ttf-mscorefonts-installer
   calibre
   xvfb
-  npm
+  imagemagick
+  libpng16-16
 "
 
 echo "========================================================================="
@@ -60,6 +60,14 @@ echo "========================================================================="
 sed -i 's|main|main contrib|' /etc/apt/sources.list
 apt-get update
 apt-get install -y --no-install-recommends $runDeps
+
+echo "========================================================================="
+echo "Installing NodeJS"
+echo "========================================================================="
+
+curl -sL https://deb.nodesource.com/setup_10.x | bash
+apt install nodejs
+
 rm -rf /var/lib/apt/lists/*
 
 echo "========================================================================="
