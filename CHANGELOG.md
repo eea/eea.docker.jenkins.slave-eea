@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.16 (2019-05-29)
+
+- Upgrade to swarm-client 3.16
+
 ## 3.15 (2019-04-16)
 
 - Upgrade to swarm-client 3.15
@@ -19,7 +23,7 @@
 
 ## 3.6.1 (2017-10-30)
 
-- Removed @ from jenkins name 
+- Removed @ from jenkins name
 
 ## 3.6 (2017-10-23)
 
