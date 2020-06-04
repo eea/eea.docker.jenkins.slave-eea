@@ -23,25 +23,8 @@ pipeline {
         }
       }
     }
+  }
 
-
- }
-
-1
-
-pipeline {
-
-2
-
-  agent any
-
-3
-
-​
-
-4
-
-  environment {
   post {
     changed {
       script {
