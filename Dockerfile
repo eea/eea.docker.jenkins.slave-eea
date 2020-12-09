@@ -1,3 +1,3 @@
-FROM eeacms/jenkins-slave:3.23
+FROM eeacms/jenkins-slave:3.24
 COPY docker-setup.sh /
 RUN /docker-setup.sh
