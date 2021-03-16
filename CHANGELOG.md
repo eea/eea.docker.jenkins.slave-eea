@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.25 (2021-03-16)
+
+- Upgrade to swarm-client 3.25
+
 ## 3.23 (2020-10-16)
 
 - Upgrade to swarm-client 3.23
