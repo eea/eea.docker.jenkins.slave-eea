@@ -76,7 +76,7 @@ echo "========================================================================="
 echo "Installing wkhtmltopdf 0.12.2"
 echo "========================================================================="
 
-curl -o /tmp/wkhtmltopdf.tgz -SL https://svn.eionet.europa.eu/repositories/Zope/trunk/wk/wkhtmltopdf-0.12.4.tgz
+curl -o /tmp/wkhtmltopdf.tgz -SL https://github.com/eea/eea.docker.kgs/raw/master/packages/wkhtmltopdf-0.12.4.tgz
 tar -zxvf /tmp/wkhtmltopdf.tgz -C /tmp/
 mv -v /tmp/wkhtmltopdf /tmp/wkhtmltoimage /usr/bin/
 
