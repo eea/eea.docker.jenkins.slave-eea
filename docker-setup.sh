@@ -36,8 +36,7 @@ runDeps="
   python3-pip
   python3-dev
   python-dev
-  python-docutils
-  python-testtools
+  python2-dev
   ssh-client
   subversion
   tex-gyre
@@ -61,6 +60,8 @@ echo "========================================================================="
 sed -i 's|main|main contrib|' /etc/apt/sources.list
 apt-get update
 apt-get install -y --no-install-recommends $runDeps
+
+pip install docutils testtools
 
 echo "========================================================================="
 echo "Installing NodeJS"
